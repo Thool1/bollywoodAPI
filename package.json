@@ -1,17 +1,18 @@
 {
-  "name": "bollywdapi",
+  "name": "bollywood-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Bollywood News API with Express and MongoDB",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["bollywood", "news", "api", "express", "mongodb"],
+  "author": "Saurabh Thool",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",

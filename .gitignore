@@ -9,6 +9,10 @@ yarn-error.log*
 # Environment variables
 .env
 
+# Build output
+dist/
+build/
+
 # OS files
 .DS_Store
 Thumbs.db
